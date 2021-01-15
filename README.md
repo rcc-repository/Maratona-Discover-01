@@ -22,7 +22,7 @@ Controle Financeiro
 
 ### Conceitos
 
-1. O que é ser uma pessoa programadora?
+### 1. O que é ser uma pessoa programadora?
 	[] Oportunidades
 		[] Front-end
 		[] Back-end
