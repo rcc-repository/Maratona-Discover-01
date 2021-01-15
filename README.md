@@ -79,7 +79,7 @@ Controle Financeiro
 
 ### 7. Vamos ver o que veremos na próxima semana?
 
-## Tarefa 02: Assistir aos cursos/aulas
+### Tarefa 02: Assistir aos cursos/aulas
 	### Revisão
 	* HTML
 		[] O guia estelar de HTML
@@ -95,7 +95,8 @@ Controle Financeiro
 			[] Visualizando a comunicação
 		[] 2. Conceitos (com exceção da aula de proxies)
 		[] 3. URI (com exceção da aula de URN)
-	### Preparação para próxima aula
+	
+### Preparação para próxima aula
 	* HTML
 		[] Posso ver e ouvir o HTML
 		[] Formulários de outro planeta
