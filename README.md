@@ -35,7 +35,7 @@ Controle Financeiro
 	[] Tecnologias e evolução
 	[] Especialista vs Generalista
 
-2. Guia de estudos e organização
+### 2. Guia de estudos e organização
 	[] Pomodoro
 	[] Tenha um lugar reservado para seu estudo
 		[] Foco
@@ -50,19 +50,19 @@ Controle Financeiro
 		não entendeu
 	[] Pesquisas
 
-3. Navegando pela plataforma
+### 3. Navegando pela plataforma
 	[] Comunidade
 	[] Trilhas
 	[] Cursos
 
-4. Como acompanhar os vídeos
+### 4. Como acompanhar os vídeos
 	[] Assista com o intuito de entender (você não precisa decorar)
 	[] Code o bloco de código após entender o que foi feito
 	[] Não tem problema não entender tudo de primeira, 
 	leva tempo e mais conhecimento para que as coisas façam sentido.
 	[] Cuidado: Memória (eu sei isso) vs Reconhecimento (eu já vi isso)
 
-5. Mentalidade
+### 5. Mentalidade
 	[] Você precisa de tempo
 		[] Descanso faz parte do aprendizado (sono)
 		[] O cérebro precisa de tempo para assimilar as coisas
@@ -72,12 +72,12 @@ Controle Financeiro
 	[] "Eu sinto que estou só copiando e colando"
 	[] Você gosta do que está fazendo?
 
-6. Bora Codar
+### 6. Bora Codar
 	[] Estrutura da aplicação com HTML
 	[] Estilização com CSS
 
 
-7. Vamos ver o que veremos na próxima semana?
+### 7. Vamos ver o que veremos na próxima semana?
 
 ## Tarefa 02: Assistir aos cursos/aulas
 	### Revisão
