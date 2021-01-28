@@ -1,11 +1,7 @@
 # dev.finance
 Controle Financeiro
 
-## O que vamos ver hoje?
-
-* A aula vai ficar gravada
-* Nesse curso veremos o front-end
-* Nosso time estará na comunidade para tirar dúvidas e te deixar por dentro de tudo.
+https://github.com/rocketseat-education/maratona-discover-01
 
 ### Qual a proposta deste projeto?
 	[] Organização e estudo
@@ -18,7 +14,6 @@ Controle Financeiro
 	[] Entendimento da plataforma e comunidade 
 	[] Projeto aplicando os conceitos do Discover
 	[] Bases necessárias para continuar sua jornada
-	
 
 ### Conceitos
 
@@ -50,11 +45,6 @@ Controle Financeiro
 		não entendeu
 	[] Pesquisas
 
-### 3. Navegando pela plataforma
-	[] Comunidade
-	[] Trilhas
-	[] Cursos
-
 ### 4. Como acompanhar os vídeos
 	[] Assista com o intuito de entender (você não precisa decorar)
 	[] Code o bloco de código após entender o que foi feito
@@ -71,13 +61,6 @@ Controle Financeiro
 	[] "Eu não sou tão bom quanto ... "
 	[] "Eu sinto que estou só copiando e colando"
 	[] Você gosta do que está fazendo?
-
-### 6. Bora Codar
-	[] Estrutura da aplicação com HTML
-	[] Estilização com CSS
-
-
-### 7. Vamos ver o que veremos na próxima semana?
 
 ### Tarefa 01: Assistir aos cursos/aulas
 	### Revisão
@@ -102,3 +85,13 @@ Controle Financeiro
 		[] Formulários de outro planeta
 	* CSS
 		[] Nem só de classes ou ID's
+
+## Tarefa 03: Assistir aos cursos/aulas
+	### Revisão
+	* HTML
+		[] Posso ver e ouvir o HTML
+		[] Formulários de outro planeta
+	* CSS
+		[] Nem só de classes ou ID's
+	### Para acompanhar a próxima aula
+	* [] O guia estelar de JavaScript		
