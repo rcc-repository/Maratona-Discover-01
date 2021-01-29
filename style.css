@@ -2,6 +2,7 @@
 
 :root {
     --dark-blue: #363f53;
+    --green: #49AA26;
 }
 
 * {
@@ -53,13 +54,49 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color:var(--dark-blue)
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    color: white;
+    background: var(--green);
+    padding: 0;
+    border-radius: 0.25rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #3dd705;
+}
+
 .button.new {
     display: inline-block;
     margin-bottom: 0.8rem;
 }
 
-a:hover {
-    color:var(--dark-blue)
+
+.button.cancel {
+    color: #e92929;
+    border: 2px #e92929 solid;
+    border-radius: 0.25rem;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.6;
+}
+
+.button.cancel:hover {
+    opacity: 1;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+    width: 48%;
 }
 
 /* Header ==================*/
@@ -111,11 +148,17 @@ header {
 }
 
 .card.total {
-    background: #49AA26;
+    background: var(--green);
     color: white;
 }
 
 /* Table ==================*/
+
+#transaction {
+    display: block;
+    width: 100%;   
+    overflow-x: auto;
+}
 
 #data-table {
     width: 100%;   
@@ -168,6 +211,66 @@ td.expense {
     color: #e92929;
 }
 
+/* Modal ==================*/
+
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.4);
+    position: fixed;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 999;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    background: #f0f2f5;
+    padding: 2.4rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Form ==================*/
+
+#form {
+    max-width: 500px;
+}
+
+#form h2 {
+    margin-top: 0;
+}
+
+input {
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.8rem;
+    width: 100%;
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group small {
+    opacity: 0.4;
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
 /* Footer ==================*/
 
 footer {
@@ -178,7 +281,7 @@ footer {
 }
 
 /* Responsive ==================*/
-@media (min-with: 800px) {
+@media (min-width: 800px) {
     html {
         font-size: 87.5%;
     }
