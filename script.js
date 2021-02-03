@@ -1,4 +1,3 @@
-
 const Modal = {
     open() {
         //Abrir Modal - Adicionar a class active no Modal
@@ -15,36 +14,29 @@ const Modal = {
     }
 }
 
-const transactions = 
-[
-    {
-        id: 1,
-        description: 'Luz',
-        amount: -50001,
-        date: '20/01/2021'
-    }, 
-    {
-        id: 2,
-        description: 'Criação WebSite',
-        amount: 50012,
-        date: '20/01/2021'
-    }, 
-    {
-        id: 3,
-        description: 'Internet',
-        amount: -100000,
-        date: '20/01/2021'
-    },
-    {
-        id: 4,
-        description: 'DEV',
-        amount: 50012,
-        date: '20/01/2021'
-    }
-]
-
 const Transaction = {
-    all: transactions,
+    all: [
+        {
+            description: 'Luz',
+            amount: -50001,
+            date: '20/01/2021'
+        }, 
+        {
+            description: 'Criação WebSite',
+            amount: 50012,
+            date: '20/01/2021'
+        }, 
+        {
+            description: 'Internet',
+            amount: -100000,
+            date: '20/01/2021'
+        },
+        {
+            description: 'DEV',
+            amount: 50012,
+            date: '20/01/2021'
+        }
+    ],
     
     add(transaction) {
 
@@ -53,6 +45,14 @@ const Transaction = {
         App.reload()
 
     },
+
+    remove(index){
+
+        Transaction.all.splice(index, 1)
+
+        App.reload()
+    },
+
     incomes(){
 
         let income = 0
@@ -166,11 +166,11 @@ const App = {
     }
 }
 
+const Form = {
+    submit(event){
+        event.preventDefault()
+    }
+}
+
 App.init()
 
-Transaction.add({
-    id: 22,
-    description: 'ADD',
-    amount: -50001,
-    date: '20/01/2021'    
-})
