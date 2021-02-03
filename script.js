@@ -32,22 +32,48 @@ const transactions =
     {
         id: 3,
         description: 'Internet',
-        amount: -20000,
+        amount: -100000,
+        date: '20/01/2021'
+    },
+    {
+        id: 4,
+        description: 'DEV',
+        amount: 50012,
         date: '20/01/2021'
     }
 ]
 
 const Transaction = {
     incomes(){
-        //Somar entradas.    
+
+        let income = 0
+
+        transactions.forEach((transaction) => {
+            if(transaction.amount > 0){
+                income += transaction.amount
+            }
+        })
+
+        return income
 
     },
     expenses(){
-        //Somar saidas.
+        
+        let expense = 0
+
+        transactions.forEach((transaction) => {
+            if(transaction.amount < 0){
+                expense += transaction.amount
+            }
+        })
+
+        return expense
+
 
     },
     total(){
-        //Entradas - Saidas
+
+        return Transaction.incomes() + Transaction.expenses()
 
     }
 }
@@ -76,6 +102,20 @@ const DOM = {
                     </td>
                     `
         return html
+    },
+    updateBalance(){
+        document.
+            getElementById('incomeDisplay')
+            .innerHTML = Utils.formatCurrency(Transaction.incomes())
+
+        document.
+            getElementById('expenseDisplay')
+            .innerHTML = Utils.formatCurrency(Transaction.expenses())
+
+        document.
+            getElementById('totalDisplay')
+            .innerHTML = Utils.formatCurrency(Transaction.total())
+
     }
 }
 
@@ -101,3 +141,5 @@ transactions.forEach(
         DOM.addTransaction(transaction)
     }
 )
+
+DOM.updateBalance()
