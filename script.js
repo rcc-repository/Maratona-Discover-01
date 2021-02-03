@@ -44,11 +44,20 @@ const transactions =
 ]
 
 const Transaction = {
+    all: transactions,
+    
+    add(transaction) {
+
+        Transaction.all.push(transaction)
+
+        App.reload()
+
+    },
     incomes(){
 
         let income = 0
 
-        transactions.forEach((transaction) => {
+        Transaction.all.forEach((transaction) => {
             if(transaction.amount > 0){
                 income += transaction.amount
             }
@@ -57,24 +66,23 @@ const Transaction = {
         return income
 
     },
+
     expenses(){
         
         let expense = 0
 
-        transactions.forEach((transaction) => {
+        Transaction.all.forEach((transaction) => {
             if(transaction.amount < 0){
                 expense += transaction.amount
             }
         })
 
         return expense
-
-
     },
+
     total(){
 
         return Transaction.incomes() + Transaction.expenses()
-
     }
 }
 
@@ -116,6 +124,10 @@ const DOM = {
             getElementById('totalDisplay')
             .innerHTML = Utils.formatCurrency(Transaction.total())
 
+    },
+
+    clearTrasaction(){
+        DOM.transactionsContainer.innerHTML = ""
     }
 }
 
@@ -145,3 +157,20 @@ const App = {
         )
         
         DOM.updateBalance()        
+    },
+
+    reload(){
+        
+        DOM.clearTrasaction()
+        App.init()
+    }
+}
+
+App.init()
+
+Transaction.add({
+    id: 22,
+    description: 'ADD',
+    amount: -50001,
+    date: '20/01/2021'    
+})
