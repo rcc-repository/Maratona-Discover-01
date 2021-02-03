@@ -1,4 +1,4 @@
-# dev.finance
+# dev.finances
 
 ## 🚀 Tecnologias
 
