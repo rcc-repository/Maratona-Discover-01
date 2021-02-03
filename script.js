@@ -136,10 +136,12 @@ const Utils = {
     }
 }
 
-transactions.forEach(
-    function(transaction){
-        DOM.addTransaction(transaction)
-    }
-)
+const App = {
+    init(){
 
-DOM.updateBalance()
+        Transaction.all.forEach((transaction) => {
+                DOM.addTransaction(transaction)
+            }
+        )
+        
+        DOM.updateBalance()        
