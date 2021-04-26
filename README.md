@@ -17,6 +17,10 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS](https://developer.mozilla.org/pt-BR/docs/Aprender/Getting_started_with_the_web/CSS_basico)
+- [CSS fonts](https://fonts.google.com/)
+- [CSS tricks](https://css-tricks.com/)
+- [CSS prefix](https://css-tricks.com/)
+- 
 - [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 
 ## 💻 Projeto
