@@ -26,8 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 O dev.finances é uma aplicação de controle financeiro, onde é possível cadastrar e excluir transações e ver o saldo de entrada e saída 💰
 
-https://github.com/rocketseat-education
-https://github.com/rocketseat-education/maratona-discover-01
+- [rocketseat-education](https://github.com/rocketseat-education)
+- [rocketseat-maratona-discover-01](https://github.com/rocketseat-education/maratona-discover-01)
 
 ### Qual a proposta deste projeto?
 	[] Organização e estudo
